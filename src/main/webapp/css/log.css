@@ -1,0 +1,74 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+body{
+    background-image: url(../img/backgroundimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+span{
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10PX 0;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+	text-align: center;
+}
+input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: black;
+    padding: 0 0 0 45px;
+    background: rgba(225,225,225,0.5);
+}
+.input-field i{
+    position: relative;
+    top: -37px;
+    left: 17px;
+}
+::-webkit-input-placeholder{
+    color: black;
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    width: 100%;
+    outline: none;
+    background:orange;    
+}
+.submit:hover{
+
+    color: #fff;
+    letter-spacing: 0.2rem;
+}
+
+
+
+
+

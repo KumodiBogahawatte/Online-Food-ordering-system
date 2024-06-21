@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito:wght@200;300;400;600;700&family=Playfair+Display:ital@1&family=Poppins:wght@100&display=swap');
+/*menu css*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.menus{
+    padding: 40px 0;
+    text-align: center;
+}
+.menus-inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+.menus-border{
+    width: 170px;
+    height: 4px;
+    background: #6ab04c;
+    margin: 26px auto;
+}
+.menus-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menus-col{
+    flex: 33.33%;
+    max-width:33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.menus-testimonial{
+    border: 1px black solid;
+    background:whitesmoke;
+    padding: 30px;
+}
+.testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.menus-name{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 20px;
+}
+.menus-stars i{
+    color: black;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.menus-btn{
+    background-color:darkslateblue;
+    padding: 5px;
+    border-bottom: white;
+    justify-content:space-between;
+}
+.menus-btn:hover{
+    color: white;
+    border: black;
+    background: black;
+}
+.menus-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.menus-btn a:hover{
+    transition: 0.2s;
+    color: white;
+}
+.menus-price{
+    font-size:30px;
+}

@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+.update-btn:hover{
+	transition: 0.2s;
+	background: thistle;
+	
+}
+.update:hover{
+	color: black;
+}
